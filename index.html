@@ -12,8 +12,9 @@
       rel="stylesheet"
     />
     <link
-    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -21,29 +22,40 @@
       <div class="nav-bar">
         <div class="container">
           <div class="nav-name">
-            <span class="nav-bar-span"> U</span>zair <span class="nav-bar-span">B</span>in
+            <span class="nav-bar-span"> U</span>zair
+            <span class="nav-bar-span">B</span>in
             <span class="nav-bar-span">A</span>sif
           </div>
           <ul>
-            <li class="nav-lists">Home</li>
-            <li class="nav-lists">Services</li>
-            <li class="nav-lists">About</li>
+            <a class="nav-lists-links" href="#mb">
+              <li class="nav-lists">Home</li>
+            </a>
+            <a class="nav-lists-links" href="#sb">
+              <li class="nav-lists">Services</li>
+            </a>
+            <a class="nav-lists-links" href="#ab">
+              <li class="nav-lists">About</li>
+          </a>
+          <a class="nav-lists-links" href="#cbox">
             <li class="nav-lists">Contact</li>
+          </a>
           </ul>
         </div>
       </div>
     </header>
     <!-- Main -->
-    <main>
+    <main id="mb">
       <h1>
         HI,<br />
         MY NAME IS <br />
         <div class="mainName">UZAIR BIN ASIF</div>
       </h1>
       <a href="#sb">
-      <button class="port-btn">PORTFOLIO</button>
-    </a>
-    <h2 id="sb" class="service-box">SERV<span class="specials">I</span>CES</h2>
+        <button class="port-btn">PORTFOLIO</button>
+      </a>
+      <h2 id="sb" class="service-box">
+        SERV<span class="specials">I</span>CES
+      </h2>
       <div class="container1">
         <div class="box box1">
           <img
@@ -55,15 +67,22 @@
             style="font-family: 'Courier New', Courier, monospace; width: 34px"
             src="./images/html.jfif"
             alt="Image here"
-            />
-            <img
-              style="font-family: 'Courier New', Courier, monospace; width: 36px; padding-bottom: 5px;"
-              src="./images/javascript.jfif"
-              alt="Image here"
-            />
+          />
+          <img
+            style="
+              font-family: 'Courier New', Courier, monospace;
+              width: 36px;
+              padding-bottom: 5px;
+            "
+            src="./images/javascript.jfif"
+            alt="Image here"
+          />
           <h2>Front-end Web Designer</h2>
           <p>
-            I'm a self learnt website designer with sepcialization in <span>HTML5</span> and <span>CSS3</span>, started my learning journey with saylani's SMIT and now building websites and web designs as a hobby. 
+            I'm a self learnt website designer with sepcialization in
+            <span>HTML5</span> and <span>CSS3</span>, started my learning
+            journey with saylani's SMIT and now building websites and web
+            designs as a hobby.
           </p>
         </div>
         <div class="box box2">
@@ -72,7 +91,7 @@
             src="./images/Photoshop_logo.jfif"
             alt="Image here"
           />
-          <img src="./images/illustrator_logo.jfif" alt="Image here">
+          <img src="./images/illustrator_logo.jfif" alt="Image here" />
           <img
             style="font-family: 'Courier New', Courier, monospace; width: 32px"
             src="./images/canva_logo.jfif"
@@ -80,7 +99,14 @@
           />
           <h2>Graphic Designer</h2>
           <p>
-            Learnt Photoshop and illustrator from mindluster.com, a well recognized site and obtained certificate for completing and mastering <span>Adobe Photoshop CC</span>, experienced in <span>Canva</span> too. <br> to view certificate <a href="https://www.mindluster.com/student/certificate/10929993421">click here</a>
+            Learnt Photoshop and illustrator from mindluster.com, a well
+            recognized site and obtained certificate for completing and
+            mastering <span>Adobe Photoshop CC</span>, experienced in
+            <span>Canva</span> too. <br />
+            to view certificate
+            <a href="https://www.mindluster.com/student/certificate/10929993421"
+              >click here</a
+            >
           </p>
         </div>
         <div class="box box3">
@@ -90,7 +116,7 @@
             alt="Image here"
           />
           <img
-            style="font-family: 'Courier New', Courier, monospace;"
+            style="font-family: 'Courier New', Courier, monospace"
             src="./images/node_js_logo.jfif"
             alt="Image here"
           />
@@ -106,11 +132,13 @@
           />
           <h2>Backend Developer/Manager</h2>
           <p>
-            Learnt TypeScript (superset of JavaScript) from Governer Sindh's AI initiative <span> GIAIC</span> in quarter 1 and recently started learning <span>Python</span> Programming from YouTube.
+            Learnt TypeScript (superset of JavaScript) from Governer Sindh's AI
+            initiative <span> GIAIC</span> in quarter 1 and recently started
+            learning <span>Python</span> Programming from YouTube.
           </p>
         </div>
       </div>
-      <h2 class="about-box">ABOUT &nbsp;<span class="specials">me</span></h2>
+      <h2 id="ab" class="about-box">ABOUT &nbsp;<span class="specials">me</span></h2>
       <div class="container2">
         <div class="myImg">
           <img
@@ -118,49 +146,90 @@
             alt="image here"
           />
           <p class="about-text">
-            A 17 year old teenager lives n North Nazimabad Karachi. Completed my SSC in computer science from Sesame Academy (regd.), intermediate HSC in the field of pre-Engineering from Govt. Dehl College, khi and currently pursuing a Bachelor's degree in Civil Engineering BECE from NED Universty of Engineering and Technology, karachi.
+            A 17 year old teenager lives n North Nazimabad Karachi. Completed my
+            SSC in computer science from Sesame Academy (regd.), intermediate
+            HSC in the field of pre-Engineering from Govt. Dehl College, khi and
+            currently pursuing a Bachelor's degree in Civil Engineering BECE
+            from NED Universty of Engineering and Technology, karachi.
           </p>
         </div>
       </div>
-      <h2 class="contact-box">
+      <h2 id="cbox" class="contact-box">
         CONTACT&nbsp; <span class="specials">info</span>
       </h2>
       <div class="container3">
         <center>
-        <div id="wp" class="box box4">
-          <img src="./images/call.jfif" alt="Image here" />
-          <h2 style="padding-bottom: 7px; color: rgb(43, 106, 255); font-weight: 500; font-size: 25px;">Phone #</h2>
-          +92 3055435588
-        </div>
-        <div class="box box4">
-          <img src="./images/mail.jfif" alt="Image here" />
-          <h2 style="padding-bottom: 7px; color: rgb(116, 183, 45); font-weight: 500; font-size: 25px;">eMail</h2>
-          shaikhuzairasif14@gmail.com
-        </div>
-        <div class="box box4">
-          <img id="g" src="./images/github_logo.jfif" alt="Image here" />
-          <h2 style="padding-bottom: 7px; color: rgb(255, 43, 43); font-weight: 500; font-size: 25px;">Github</h2>
-          <a target="_blank" href="https://github.com/UzairBinAsif">
-          github.com/UzairBinAsif</a>
-        </div>
-      </center>
+          <div id="wp" class="box box4">
+            <img src="./images/call.jfif" alt="Image here" />
+            <h2
+              style="
+                padding-bottom: 7px;
+                color: rgb(43, 106, 255);
+                font-weight: 500;
+                font-size: 25px;
+              "
+            >
+              Phone #
+            </h2>
+            +92 3055435588
+          </div>
+          <div class="box box4">
+            <img src="./images/mail.jfif" alt="Image here" />
+            <h2
+              style="
+                padding-bottom: 7px;
+                color: rgb(116, 183, 45);
+                font-weight: 500;
+                font-size: 25px;
+              "
+            >
+              eMail
+            </h2>
+            shaikhuzairasif14@gmail.com
+          </div>
+          <div class="box box4">
+            <img id="g" src="./images/github_logo.jfif" alt="Image here" />
+            <h2
+              style="
+                padding-bottom: 7px;
+                color: rgb(255, 43, 43);
+                font-weight: 500;
+                font-size: 25px;
+              "
+            >
+              Github
+            </h2>
+            <a target="_blank" href="https://github.com/UzairBinAsif">
+              github.com/UzairBinAsif</a
+            >
+          </div>
+        </center>
       </div>
     </main>
     <!-- Footer -->
     <footer>
       <div class="footer-box">
-        <p >UZAIR BIN ASIF</p>
-        <section><div>
-        <a href="https://www.facebook.com/profile.php?id=61559937306173" target="_blank"><img src="./images/facebook.jfif" alt="image here">
-        </a>
-        <a href="https://www.instagram.com/uzair_official___01/?hl=en" target="_blank"><img src="./images/instagram.jfif" alt="image here">
-        </a>
-        <a href="#wp"><img src="./images/whatsapp.jfif" alt="image here">
-        </a></div>
-      </section>
-      <div>
-        <p class="cpy">&copy; copyright 2024, all rights reserved. </p>
-      </div>
+        <p>UZAIR BIN ASIF</p>
+        <section>
+          <div>
+            <a
+              href="https://www.facebook.com/profile.php?id=61559937306173"
+              target="_blank"
+              ><img src="./images/facebook.jfif" alt="image here" />
+            </a>
+            <a
+              href="https://www.instagram.com/uzair_official___01/?hl=en"
+              target="_blank"
+              ><img src="./images/instagram.jfif" alt="image here" />
+            </a>
+            <a href="#wp"
+              ><img src="./images/whatsapp.jfif" alt="image here" />
+            </a>
+          </div>
+        </section>
+        <div>
+          <p class="cpy">&copy; copyright 2024, all rights reserved.</p>
+        </div>
       </div>
     </footer>
   </body>
