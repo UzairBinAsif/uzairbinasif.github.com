@@ -14,12 +14,17 @@ ul {
 .nav-lists {
   list-style-type: none;
   padding: 7px 12px;
+  color: rgb(93, 93, 93);
+}
+.nav-lists:hover{
+  color: rgb(255, 0, 247);
 }
 .nav-name {
   font-weight: 540;
   font-size: 24px;
   padding: 7px 30px;
   float: inline-start;
+  color: gray;
 }
 header{
   position: sticky;
@@ -93,9 +98,6 @@ footer{
 span{
   color: red;
 }
-.box > h2{
-  color: red;
-}
 .box > p{
   margin-bottom: 6vh;
 }
@@ -119,7 +121,7 @@ span{
 } */
 .nav-bar-span{
   font-weight: 900;
-  color: rgba(46, 57, 82, 0.949);
+  color: rgba(0, 0, 255, 0.647);
 }
 .container1{
   display: flex;
@@ -127,7 +129,7 @@ span{
   flex-wrap: wrap;
 }
 .about-box, .contact-box{
-  margin-top: 185px;
+  margin-top: 145px;
   margin-bottom: 85px;
   display: flex;
   justify-content: center;
@@ -151,14 +153,15 @@ span{
 }
 .about-text{
   color: white;
+  margin-right: 11vw;
 }
-.box2{
+.box4{
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 20vh;
 }
-.box2 > img{
+.box4 > img{
   width: 45px;
   margin-left: 20px;
   margin-top: 25px;
@@ -176,8 +179,12 @@ a{
   list-style: none;
 }
 .cpy{
-  margin-top: 5vh;
+  align-items: center;
   font-size: small;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin-bottom: 1vh;
 }
 .footer-box{
   padding-top: 18px;
@@ -186,3 +193,74 @@ a{
   display: flex;
   justify-content: center;
 }
+a{
+  /* text-decoration: none; */
+  color: black;
+}
+.container1 > .box{
+  color: purple;
+}
+.container1 > .box > h2{
+  color: rgb(102, 55, 222);
+}
+.container1 > .box1 > p > span:nth-child(1){
+  color: orange;
+}
+.container1 > .box1 > p > span:nth-child(2){
+  color: steelblue;
+}
+.port-btn:hover{
+  box-shadow: 3px 3px 7px inset black;
+  border: 0px;
+  text-shadow: 1px 2px 4px black;
+}
+.box2 > p > span:nth-child(1){
+  color: blue;
+}
+.box2 > p > span:nth-child(2){
+  color: rgb(34, 183, 252);
+}
+.box2 > p > a{
+  color: brown;
+  text-decoration: none;
+}
+.box2 > p > a:hover{
+  color: red;
+}
+.box3 > p > span:nth-child(1){
+  color: green;
+}
+.box2 > img:nth-child(2){
+  width: 28px;
+  padding-bottom: 2px;
+  margin-left: 4vw;
+}
+.box2 > img:nth-child(3){
+  margin-left: 4vw;
+}
+.box1 > img:nth-child(2){
+  margin: 0vw 4vw;
+}
+.box3 > img:nth-child(2){
+  margin: 0vw 4vw;
+  width: 46px;
+}
+.box3 > img:nth-child(3){
+  margin-right: 5vw;
+}
+.footer-box > section > div > a > img{
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 3vw;
+}
+footer{
+  width: 100vw;
+}
+.box{
+  box-shadow: 4px 4px 7px purple;
+}
+/* .box:hover{
+  box-shadow: 1px 1px 10px inset purple;
+  border: 0px;
+} */
