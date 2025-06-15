@@ -257,15 +257,41 @@ footer > :last-child {
 
 
 @media screen and (max-width: 640px) {
+    .left-box {
+        font-size: 20px;
+    }
+    
     .first-sec {
         flex-direction: column-reverse;
         margin-top: 3vh;
         margin-bottom: 14vh;
         gap: 50px;
     }
-
+    
     .first-sec-left {
         width: 300px;
         /* margin: 100px 0px; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-box {
+        font-size: 20px;
+    }
+    
+    .first-sec-right > p {
+        font-size: 24px;
+    }
+
+    .first-sec-right > div {
+        font-size: 24px;
+    }
+
+    .first-sec-right > span {
+        font-size: 25px;
+    }
+
+    .first-sec-left {
+        width: 250px;
     }
 }
