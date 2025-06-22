@@ -109,6 +109,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .third-sec {
@@ -118,6 +119,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -148,13 +150,13 @@ nav {
 }
 
 .fourth-sec {
-    /* background-color: red; */
     max-width: 80vw;
     margin: 60px auto;
     max-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .fourth-sec a {
